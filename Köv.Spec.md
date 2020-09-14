@@ -1,3 +1,3 @@
 ## **Jelenlegi helyzet**
 
-     A cégünk jelenleg papíron vezeti, a könyvelést. Minden szerelőnknek van külön egy napjója és az ügyfelekkel való konzultáció folyamán és a munka során minden munkamanetet oda könyvelnek. Ide kerül rögzítésre a javítás várható vége, az anyagköltésgek valamint a munkadíjak. Ez a jelenlegi szituáció az alkalmazottainktól nagyon sok időt vesz el amit munkával tölthetnének ezért produktivitásunk növelése érdekében kérjük önöket az alkalmazás feljesztésére.
+    A cégünk jelenleg papíron vezeti, a könyvelést. Minden szerelőnknek van külön egy napjója és az ügyfelekkel való konzultáció folyamán és a munka során minden munkamanetet oda könyvelnek. Ide kerül rögzítésre a javítás várható vége, az anyagköltésgek valamint a munkadíjak. Ez a jelenlegi szituáció az alkalmazottainktól nagyon sok időt vesz el amit munkával tölthetnének ezért produktivitásunk növelése érdekében kérjük önöket az alkalmazás feljesztésére.
