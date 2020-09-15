@@ -4,7 +4,7 @@ A cégünk jelenleg papíron vezeti, a könyvelést. Minden szerelőnknek van k�
 
 ## 2. **Vágyálomrendszer**
 
-Cégünk szeretne egy adminisztrációs rendszert a könnyebb átláthatóság érdekében és a munka felgyorsítása céljából. Ehhez egy olyan programot szeretnénk készítettni amely könnyen átlátható, a dolgozók számára könnyen kezelhető.
+Cégünk szeretne egy adminisztrációs rendszert a könnyebb átláthatóság érdekében és a munka felgyorsítása céljából. Ehhez egy olyan programot szeretnénk készítettni, amely könnyen átlátható, a dolgozók számára könnyen kezelhető. Cégünk munkatársai leginkább a Microsoft Windows operációs rendszert ismerik és használják a mindennapok folyamán, ezért amennyiben lehetséges a program platformául a Windows operációs rendszeren való stabil, megbízható működést preferáljuk. Mivel a könyvelést számítógépen, illetve laptopon végezzük, ezért nem fontos egy mobil verzió elkészítése.
 
 ## 3. Jelenlegi üzleti folyamatok:
 
