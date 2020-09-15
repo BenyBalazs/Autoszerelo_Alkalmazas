@@ -27,3 +27,16 @@ A javításra váró autók felvételét, jelenleg irodavezetőnk végzi, akinek
 * Az esetlegesen felhasznált külső forrásokat meg kell jelölni.
 
 * A képek melyek felhasználásra kerülnek jpeg és png formátumúak lehetnek.
+
+## 6. **Követelménylista**
+
+- A rendszer tartsa nyílván a szerelésre váró autókat.
+
+- A rendszer legyen képes részletes adattárolásra (autó márkája, típusa, stb.)
+
+- Lehessen módosítani a szerelésre váró autók nyílvántartásán (szerkesztés,módosítás,törlés) - mivel a esetlegesen javítás közben fellépő extra teendőket is szeretnénk tárolni.
+
+- A rendszeren lehessen váltogatni a különböző munkafolyamatok között (az éppen aktuális javítási állapottól függően). (szerelésre vár, szerelés alatt, kész)
+
+- A program egyszerűen kezelhető, felhasználóbarát felülettel rendelkezzen, melyet munkatársaink könnyedén használni tudjanak.
+
