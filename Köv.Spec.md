@@ -19,3 +19,11 @@ A javításra váró autók felvételét, jelenleg irodavezetőnk végzi, akinek
 - **Az autóknak 4 státusza legyen :** szerelőre vár (felvétel időpontja), szerelés alatt, elkészült és fizetve. Státuszok válltozásának ideje kerüljön feljegyzésre!
 - **A programmal tudjuk nyomonkövetni a költségeket:** legyen lehetőség minden javításnak a költségét megnézni és ezeket a javítás folyamatában szerkeszteni, hozzáadni az alkatrészköltésget és a hozzájuk tartozó munkadíjakat is.
 - Tudjuk kilistázni a már elkészült autókat és amint az ügyfél kifizette a költségeket akkor az autót fizetve státuszra lehessen állítani.
+
+## 5. **A rendszerre vonatkozó szabályok**
+
+* Az alkalmazás szabványos java elemekkel készüljön: JavaFX, Maven.
+
+* Az esetlegesen felhasznált külső forrásokat meg kell jelölni.
+
+* A képek melyek felhasználásra kerülnek jpeg és png formátumúak lehetnek.
