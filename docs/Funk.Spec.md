@@ -8,4 +8,4 @@
 
 - A program minden elkészült autónál megadja a szerelés végső árát.
 
-- Azomban e legfontosabb az lenne, hogy egy egyszerűen kezelhető és bárki álltal könnyen tanulható program készülne.
+- Azonban a legfontosabb az lenne, hogy egy egyszerűen kezelhető és bárki által könnyen tanulható program készüljön.
