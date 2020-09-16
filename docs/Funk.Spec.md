@@ -8,4 +8,5 @@ A jelenlegi analóg, vagyis papír és ceruzán alapuló könyvelés megérett a
 - A GDPR előírásainak megfelelni.
 - A dolgozók könyveléshez való hozzáférési jogosultságainak kezelése.
 - Biztonsági funkciók használata, az adatok illetéktelen hozzáféréstől való megvédése érdekében.
-- Korábban szerelt autók adatainak a megőrzése, esetleges későbbi szerelés felhasználásához.
+- Megkülönböztetni a szerelőket, az adminisztrációs munkatársakat, és a könyvelőket.
+- Az alkaltrészek olyan fajata nyomonkövetése, hogy van-e raktáron vagy rendelni kell.
