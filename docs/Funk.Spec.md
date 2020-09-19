@@ -17,3 +17,11 @@ Az adatok tárolására relációs adatbázis táblákat használunk, melyek a j
 - **Új autó:** Az 'Új autó' menüpontban lesz lehetőség új autók felvételére, a hiba leírás megadására, valamint a tulaj nevének és telefonszámának megadására.
 - **Szerelés alatt:** Ebben a menüpontban lesz lehetőség a folyamat státuszin változtatni a javításra váró, javítás alatt és elkészült státuszok között. Szintén itt lesz lehetőség, hogy a költségeket megahatározzuk melyek a javítás során keletkeznek.
 - **Kész autók:** Ez a menüpont egy lekérdező felület lesz, ahol meg lehet nézni, hogy mely autók állnak készen arra, hogy a tulaj átvegye, és itt a végösszeg is megtekinthető lesz. Amint pedig a fizetés megtörtént itt lehet megadni a fizetve státuszt is.
+
+## 6. **Képernyőtervek:**
+
+- A cél, hogy a javafx felhasználásaval minnél egyszerűbb és letisztultabb felhasználói felület kerüljön elkészítésre. A program alapját egy megjelenítési panel fogja alkotni ahol lehetséges lesz majd szűrni a külömböző állapotokban lévő autók közül és innen lehet majd megnyitni az ablakokat ahol hozzá lehet adni valamint szerkeszteni lehet majd az autókat. 
+
+    - A kezdőképernyőn lehetőségünk lesz az új autók felvételéhez amik felvétel után azonnal feltöltődnek az adatbázisba.
+    - Folyamatban illetve még nem elvállalt autók menüpontja itt lehetséges listázni a még nem lekezdett, a javítás alatt lévő illetve a már elkészült autókat. Itt az elkészült autókat vissza lehet helyezni javításra várt státuszba esetleges hiba esetén.
+    - A teljesen megjavított autók listája. Itt lehetséges az autó fizetett állapotba való állítása amikor az ügyfél eljön és kifizeti a javítás költségét.
