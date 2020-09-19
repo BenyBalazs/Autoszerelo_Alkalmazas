@@ -5,8 +5,8 @@ Szerelőink képesek legyenek a programon keresztül adminisztrálni a szerelés
 
 ## 5. **Igényelt üzleti folyamatok:**
 
-Programunk alapvetően három menüt jelenít meg, ezen menük: autó felvétele javításra, szerelési folyamat nyomonkövetése (legörüldő menüsoron keresztül ki tudjuk választani az éppen aktuális munkafolyamatot.), valamint a teljesítési állapot.
+Programunk alapvetően három menüt jelenít meg, ezen menük: új autó, szerelés alatt (legörüldő menüsoron keresztül ki tudjuk választani az éppen aktuális munkafolyamatot.), valamint a kész autók.
 
 A folyamatok közül, mindegyik  kiemelt jelentőséggel bíró, ezért ezeket a menüsort rögtön az alkalmazás indítása után grafikus felületen megjelenítjük a felhasználó számára, ezáltal a program használata egyszerű, és felhasználóbarát lesz.
 
-Az autó felvétele menühöz kapcsolódó táblában fogjuk tárolni az autónak, valamint a tulajdonosának adatait, a szerelési folyamat nyomonkövetése menühöz kapcsolodó táblában tároljuk majd a különböző munkafolyamatokat (szerelésre vár,szerelés alatt, átvételre kész), míg a teljesítési állapot menühöz tartozó táblában a fizetési állapotra vonatkozó adatokat tároljuk el (pl: kifizetve, átvételre kész stb..)
+Az új autó menühöz kapcsolódó táblában fogjuk tárolni az autónak, valamint a tulajdonosának adatait, a szerelés alatt menühöz kapcsolodó táblában tároljuk majd a különböző munkafolyamatokat (szerelésre vár,szerelés alatt, átvételre kész), míg a kész autók menühöz tartozó táblában a fizetési állapotra vonatkozó adatokat tároljuk el (pl: kifizetve, átvételre kész stb..)
