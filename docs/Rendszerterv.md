@@ -21,8 +21,7 @@ Az alacson rendszerigény a következő:
 
 A szoftver célplatformja a Microsoft Windwos 10 operációs rendszer. Azomban a Java platformfüggetlen megvalósítása miatt a program képes futni a Java 15-el kompatibilis Linux rendszereken is.
 
-## 10. **Rendszerhasználati esetek és lefutásai:**
-
+## 10. **Fejlesztői eszközök:**
 
 A project során használt fejlesztői eszközök az alábbiak.
 
@@ -30,3 +29,15 @@ A project során használt fejlesztői eszközök az alábbiak.
 - Maven 3
 - MySQL
 - JavaFx
+
+## 14. **Tesztterv:**
+
+ Kód | Leírás |
+| --- | ----------- |
+| T1 | A program leindítása |
+| T2 | Adatbázisból egy létező elemre való rákeresés |
+| T3 | Adatbázisból egy nem létező elemre való keresés |
+| T4 | Autó hozzáadása az adatbázisho |
+| T5 | Egy autó állapotának a módosítás |
+| T6 | Egy autó eltávolítása az adatbázisból |
+
