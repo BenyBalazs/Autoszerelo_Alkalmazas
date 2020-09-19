@@ -6,7 +6,6 @@ A jelenlegi analóg, vagyis papír és ceruzán alapuló könyvelés megérett a
 ### 3.1 **A rendszernek nem célja**
 
 - A GDPR előírásainak megfelelni.
-- A dolgozók könyveléshez való hozzáférési jogosultságainak kezelése.
+- A dolgozók nyílvántartása.
 - Biztonsági funkciók használata, az adatok illetéktelen hozzáféréstől való megvédése érdekében.
-- Megkülönböztetni a szerelőket, az adminisztrációs munkatársakat, és a könyvelőket.
 - Az alkaltrészek olyan fajata nyomonkövetése, hogy van-e raktáron vagy rendelni kell.
