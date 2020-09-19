@@ -24,3 +24,30 @@ Név |   Szerepkör
 Benyovszki Balázs Zoltán  | szoftverfejlesztő
 Csontos Róbert  | szoftverfejlesztő
 Kis Patrik    | szoftverfejlesztő
+
+## 4. **Ütemterv:**   
+
+### 4.1. **Mérföldkövek**
+
+A program elkészítésének fő mérföldkövei:  
+
+#### 4.1.1. **Tervezés**
+
+- A Trelloban való regisztráció illetve a használatának elkezdése  
+- A git repository elkészítése  
+- A tagok git-re való regisztrációja illetve a projekthez felvétele  
+- A követelményspecifikáció elkészítése  
+- A funckionális specifikáció elkészítése  
+- A rendszerterv elkészítése
+
+#### 4.1.2. **Kódolás és tesztelés**
+  
+- A rendszer tesztjeinek felállítása  
+- A program adatbázisának elkészítése  
+- A program controllerének elkészítése  
+- A program tesztelése a minimális funkciókkal
+
+#### 4.1.3. **További mérföldkövek**
+
+- A felhasználó visszajelzések beletervezése a projektbe
+- A kisebb üzleti értékkel rendelkező kényelmi funkciók fejlesztése
