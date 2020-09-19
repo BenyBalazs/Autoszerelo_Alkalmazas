@@ -1,3 +1,8 @@
+## 1. **Bevezetés:**
+
+Cégünk telephelye Debrecentől 15 km-re található, egy kisebb városban. Mivel a környéken nem található olyan autószerelő műhely, mely ilyen széleskörű szolgáltatásokat nyújt, ezért cégünk vezetése a előrelépés mellett döntött, ennek megfelelően egy gyors és hatékony számítógépes rendszer fejlesztését tervezzük. Ezen igényekre támaszkodva terveztük meg magát a programot, mely terveink szerint nagyban megkönnyíti majd az autószerelő műhelyben zajló adminisztrációs folyamatokat.
+Szerelőink képesek legyenek a programon keresztül adminisztrálni a szerelési fázisnak megfelelelő munkafolyamatokat.
+
 ## 2. **Használati esetek:**
 
 - A rendszerrel szeretnénk nyilvántartani a hozzánk szerelésre beérkezett autókat ezzel megkönnyítve a munkatársaik számára az adminisztrációt. A program a garázs központi számítógépén futna így minden szerelő alkalmazottunk hozzá tud majd férni. A rendszerben legyen az autóknak többféle választható stílusa melyek az alábbiak legyenek: szerelésre vár, javítás alatt áll az autó, elkészült. Az autó elkészült, átvehető állapotban van további teendő nics vele értesíteni kell az adminisztrációs munkatársnak az ügyfelet arról, hogy átveheti autóját ebben a státuszban kerüljön kiszámításra a végösszeg. Fizetve: az ügyfél kifizette valamint elvitte az autót ez a könyvelő munkatársunknak fog majd segíteni. 
@@ -29,6 +34,14 @@ Az adatok tárolására relációs adatbázis táblákat használunk, melyek a j
 - **Új autó:** Az 'Új autó' menüpontban lesz lehetőség új autók felvételére, a hiba leírás megadására, valamint a tulaj nevének és telefonszámának megadására.
 - **Szerelés alatt:** Ebben a menüpontban lesz lehetőség a folyamat státuszin változtatni a javításra váró, javítás alatt és elkészült státuszok között. Szintén itt lesz lehetőség, hogy a költségeket megahatározzuk melyek a javítás során keletkeznek.
 - **Kész autók:** Ez a menüpont egy lekérdező felület lesz, ahol meg lehet nézni, hogy mely autók állnak készen arra, hogy a tulaj átvegye, és itt a végösszeg is megtekinthető lesz. Amint pedig a fizetés megtörtént itt lehet megadni a fizetve státuszt is.
+
+## 5. **Igényelt üzleti folyamatok:**
+
+Programunk alapvetően három menüt jelenít meg, ezen menük: új autó, szerelés alatt (legörüldő menüsoron keresztül ki tudjuk választani az éppen aktuális munkafolyamatot.), valamint a kész autók.
+
+A folyamatok közül, mindegyik  kiemelt jelentőséggel bíró, ezért ezeket a menüsort rögtön az alkalmazás indítása után grafikus felületen megjelenítjük a felhasználó számára, ezáltal a program használata egyszerű, és felhasználóbarát lesz.
+
+Az új autó menühöz kapcsolódó táblában fogjuk tárolni az autónak, valamint a tulajdonosának adatait, a szerelés alatt menühöz kapcsolodó táblában tároljuk majd a különböző munkafolyamatokat (szerelésre vár,szerelés alatt, átvételre kész), míg a kész autók menühöz tartozó táblában a fizetési állapotra vonatkozó adatokat tároljuk el (pl: kifizetve, átvételre kész stb..)
 
 ## 6. **Képernyőtervek:**
 
