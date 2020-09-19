@@ -21,3 +21,12 @@ Az alacson rendszerigény a következő:
 
 A szoftver célplatformja a Microsoft Windwos 10 operációs rendszer. Azomban a Java platformfüggetlen megvalósítása miatt a program képes futni a Java 15-el kompatibilis Linux rendszereken is.
 
+## 10. **Rendszerhasználati esetek és lefutásai:**
+
+
+A project során használt fejlesztői eszközök az alábbiak.
+
+- Java 15
+- Maven 3
+- MySQL
+- JavaFx
