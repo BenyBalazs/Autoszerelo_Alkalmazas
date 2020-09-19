@@ -28,3 +28,10 @@ A két csoport a következőképpen alakul:
 - Adminisztrációs munkatárs(ak) csoportja
 
 Magát a programot, mindkét csoport egyaránt haszálni fogja, azonban az adminisztrációs munkatársak rendelkeznek majd bővebb jogosultságokkal, ők lesznek azok akik mind a szerelőkkel való kapcsolattartásért, mind pedig az autó tulajdonosokkal való kapcsolattartásért egyaránt felelősek lesznek.
+
+## 11. **Keretrendszer:**
+
+- Entity
+- Spring Boot
+- Afterburner.fx
+
