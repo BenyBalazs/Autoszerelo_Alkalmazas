@@ -34,11 +34,11 @@ A project során használt fejlesztői eszközök az alábbiak.
 
 A tervezés folyamán egy grafikus megjelenítési formát célszerű használni jelen esetben ez az UML az úgynevezett Unified Modeling Language osztálydiagrammjai lesznek. Célszerű használni továbbá a Rendszerhasználati esetek alatt található use case diagrammokat is. 
 
-## 13.1. **Implementációs terv:**
+## 13.1. **Perzisztencia-osztályok:**
 
 Az adatbáziskezelésben a perzisztenciát a java nyelvhez készített hybernate programkönyvtárat használjuk amit a Maven plugin importálásával adunk hozzá a programhoz. Perzisztencia osztályok: -DBUtils -HibernateUtils
 
-## 13.2. **Implementációs terv:**
+## 13.2. **Üzleti logika osztályai:**
 
 Az üzleti logika a háromrétegű adatkezelő alkalmazások középső rétege, amely meghatározza az alkalmazás működésének logikáját. A háromrétegű architektúra az alkalmazást három különálló rétegre osztja fel. E rétegek komponensei önállóan léteznek, és együttműködésük során egyidejűleg több különböző alkalmazásnak is a részei lehetnek. Az adatbázislogika az adatok nyers tárolását végzi. Semmilyen információval nem rendelkezik az adatok feldolgozásával vagy megjelenítésével kapcsolatban. Az ügyviteli (üzleti) logika az alkalmazás logikáját, működési szabályait határozza meg. Semmilyen információval nem rendelkezik az adatok tárolásával vagy megjelenítésével kapcsolatban. A felhasználói interfész feladata az ügyviteli logika által küldött adatok formázása és megjelenítése. Biztosítja a felhasználó hozzáférését az ügyviteli logika szolgáltatásaihoz. Sohasem kerül közvetlen kapcsolatba az adatbázissal, és nem végez semmilyen műveletet az adatokon.
 
