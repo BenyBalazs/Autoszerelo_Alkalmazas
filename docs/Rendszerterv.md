@@ -6,3 +6,21 @@ A szoftver egy MySQL adatbázist használó Java nyelven megírt program, amely 
 ## 2. **A rendszer célja:**
 
 A rendszer célja, hogy az autószerelő műhely analóg nyílvántartását lecserélje digitálisra. Ezáltal egy sokkal modernebb, kényelmesebb és gyorsabb módon mehet a nyílvántartás vezetése, mely nagyban elősegíti a dolgozók munkáját. Ennek köszönhetően sok időt és energiát spórolnak meg, melyet más fontos dolgokra fordíthatnak.
+
+## 3. **A projekt tervezete:**
+
+### 3.1 **A rendszer felépítése**
+
+Az adatbázis kapcsolathoz szükséges egy database osztály,
+amely létrehozza, fenntartja, és zárja az adatbáziskapcsolatot.
+A felszedett adatokat megfelelően repzezentálva szolgáltatjuk, továbbá a felületen lehetőségük nyílik új autók felvételére, munkafolyamatok módosítására. A grafikus megjelenítést JavaFX segítségével valósítjuk meg. A program controller részének megvalósítását Java programozási nyelven terveztük el. A projekthez továbbá felhasználtuk a Maven nevű projekt menedzsment eszköztárat is.
+
+### 3.2 **Projektmunkások és felelősségeik**
+
+A projektet készítő három személy teljesen egyenjogú szerepkörökkel rendelkezik. Mind hármuk kiveszi a részét a munka minden egyes fázisából és részéből. Mindnyájan egyenrangú fejlesztői a programnak.
+
+Név |   Szerepkör
+-----------|---------
+Benyovszki Balázs Zoltán  | szoftverfejlesztő
+Csontos Róbert  | szoftverfejlesztő
+Kis Patrik    | szoftverfejlesztő
