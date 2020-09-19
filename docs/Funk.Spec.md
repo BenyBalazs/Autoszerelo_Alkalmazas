@@ -2,7 +2,6 @@
 
 Az adatok tárolására relációs adatbázis táblákat használunk, melyek a jelenlegi célnak tökéletesen megfelelnek. A szoftver menüsorából az alábbi opciók érhetők el:
 
-- **Szerelésre váró autók:** A 'Szerelésre váró autók' menüpontban lesz lehetőség új autók felvételére, a meglévő autók adatainak szerkesztésére, valamint ebben a menüpontban lehet a szerelőnek elvállalni a munkát, és a szerelés közben felmerülő költségeket megadni.
-- **Kész autók:** Ez a menüpont egy lekérdező felület lesz, ahol meg lehet nézni, hogy mely autók állnak készen arra, hogy a tulaj átvegye, és itt a végösszeg is megtekinthető lesz.
-- **Szerelő:** Ebben a menüpontban lehet új szerelőt felvenni és hozzárendelni egy azonosítót. Szintén itt lehet a szerelőt törölni, ha a munkaviszony megszűnik.
-- **Tulajdonos:** Itt lehet felvenni a tulajdonos adatait úgy mint: név, telefonszám, email cím, lakcím. Esetleges adat változás esetén, a szerkesztés is ebben a menüpontban valósul meg.
+- **Új autó:** Az 'Új autó' menüpontban lesz lehetőség új autók felvételére, a hiba leírás megadására, valamint a tulaj nevének és telefonszámának megadására.
+- **Szerelés alatt:** Ebben a menüpontban lesz lehetőség a folyamat státuszin változtatni a javításra váró, javítás alatt és elkészült státuszok között. Szintén itt lesz lehetőség, hogy a költségeket megahatározzuk melyek a javítás során keletkeznek.
+- **Kész autók:** Ez a menüpont egy lekérdező felület lesz, ahol meg lehet nézni, hogy mely autók állnak készen arra, hogy a tulaj átvegye, és itt a végösszeg is megtekinthető lesz. Amint pedig a fizetés megtörtént itt lehet megadni a fizetve státuszt is.
