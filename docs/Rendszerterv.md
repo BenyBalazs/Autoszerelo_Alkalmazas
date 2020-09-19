@@ -19,3 +19,12 @@ Ezen elemek a következőek lennének:
 - Új autó 
 - Szerelés alatt
 - Kész autók
+
+## 8. **Rendszerszereplők:**
+
+A rendszerünkben két nagy csoportot különböztetünk meg:
+A két csoport a következőképpen alakul:
+- Szerelők csoportja
+- Adminisztrációs munkatárs(ak) csoportja
+
+Magát a programot, mindkét csoport egyaránt haszálni fogja, azonban az adminisztrációs munkatársak rendelkeznek majd bővebb jogosultságokkal, ők lesznek azok akik mind a szerelőkkel való kapcsolattartásért, mind pedig az autó tulajdonosokkal való kapcsolattartásért egyaránt felelősek lesznek.
