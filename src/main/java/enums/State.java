@@ -1,6 +1,6 @@
 package enums;
 
-public enum States {
+public enum State {
     WAITING,
     UNDER_REPAIR,
     FINISHED,
