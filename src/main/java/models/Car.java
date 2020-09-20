@@ -1,9 +1,9 @@
 package models;
 
-import enums.State;
 import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
+import lombok.Builder;
 
 import javax.persistence.*;
 import javax.persistence.criteria.CriteriaBuilder;
@@ -13,7 +13,14 @@ import javax.persistence.criteria.CriteriaBuilder;
 @NoArgsConstructor
 @Entity
 @Table(name = "Cars")
-public class Cars {
+public class Car {
+
+    public static enum State {
+        WAITING,
+        UNDER_REPAIR,
+        FINISHED,
+        PAID
+    }
 
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)

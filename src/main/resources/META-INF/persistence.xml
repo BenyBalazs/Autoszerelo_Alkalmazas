@@ -3,10 +3,10 @@
     <persistence-unit name="Cars">
         <provider>org.hibernate.jpa.HibernatePersistenceProvider</provider>
         <properties>
-            <property name="javax.persistence.jdbc.driver" value="${db.driver}"/>
-            <property name="javax.persistence.jdbc.url" value="${db.url}"/>
-            <property name="javax.persistence.jdbc.user" value="${db.user}"/>
-            <property name="javax.persistence.jdbc.password" value="${db.password}"/>
+            <property name="javax.persistence.jdbc.driver" value="com.mysql.cj.jdbc.Driver"/>
+            <property name="javax.persistence.jdbc.url" value="jdbc:mysql://remotemysql.com:3306/aPtqQZyv3L"/>
+            <property name="javax.persistence.jdbc.user" value="aPtqQZyv3L"/>
+            <property name="javax.persistence.jdbc.password" value="ca0MA4XX2P"/>
             <property name="javax.persistence.schema-generation.database.action" value="update"/>
             <property name="hibernate.format_sql" value="true"/>
             <property name="hibernate.use_sql_comments" value="true"/>

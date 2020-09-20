@@ -1,6 +1,6 @@
 package database;
 
-import models.Cars;
+import models.Car;
 import org.slf4j.LoggerFactory;
 import org.slf4j.Logger;
 
@@ -21,7 +21,7 @@ public final class Database {
         return emf.createEntityManager();
     }
 
-    public static void commitChanges(Cars entity){
+    public static void commitChanges(Car entity){
         EntityManager em = getEntityManager();
         try{
             em.getTransaction().begin();
@@ -35,13 +35,14 @@ public final class Database {
         }
     }
 
-    public static void uploadEntityToDatabase(Cars entity){
+    public static void uploadEntityToDatabase(Car entity){
         EntityManager em = getEntityManager();
         try{
             em.getTransaction().begin();
             em.persist(entity);
             em.getTransaction().commit();
             em.close();
+            logger.debug("Entitás sikeresen elmentve az adatbázisban!");
         }catch (Exception e){
             logger.error("A hiba forrása {}", e.toString());
         } finally {
@@ -49,7 +50,7 @@ public final class Database {
         }
     }
 
-    public static void removeEntity(Cars entity){
+    public static void removeEntity(Car entity){
         EntityManager em = getEntityManager();
         try{
             logger.debug("Removing Entity {}",entity.toString());
