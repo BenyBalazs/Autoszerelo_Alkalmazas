@@ -13,9 +13,6 @@ import java.io.IOException;
  */
 public class App extends Application {
 
-
-    //private double x,y;
-
     @Override
     public void start(Stage stage) throws IOException {
         Parent root = FXMLLoader.load(getClass().getResource("menu.fxml"));

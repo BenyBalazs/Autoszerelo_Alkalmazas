@@ -11,4 +11,9 @@ public class RepairController {
 
     }
 
+    public void untilrepair(MouseEvent mouseEvent) {
+    }
+
+    public void waitrepair(MouseEvent mouseEvent) {
+    }
 }
