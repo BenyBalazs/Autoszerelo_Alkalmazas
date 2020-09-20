@@ -26,22 +26,20 @@ public class Car {
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     @Column(name = "Car_ID")
     private long id;
-    @Column(name = "Owner_Name")
-    private String ownerName;
-    @Column(name = "Owner_Phone_Number")
-    private String ownerPhoneNumber;
+    @Column(name = "Name")
+    private String name;
+    @Column(name = "Phone_Number")
+    private String phoneNumber;
     @Column(name = "License_Plate_Number", nullable = false)
-    private String licensePlateNumber;
-    @Column(name = "Chassis_Number", nullable = false)
-    private String chassisNumber;
+    private String licensePlate;
     @Column(name = "Description")
     private String description;
     @Column(name = "Brand_And_Type")
     private String brandAndType;
     @Column(name = "State")
     private State state;
-    @Column(name = "Price")
-    private Integer price;
+    @Column(name = "Cost_Of_Repair")
+    private Integer costOfRepair;
 
 
 
