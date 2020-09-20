@@ -15,30 +15,30 @@ public class MenuController {
     private static Logger logger = LoggerFactory.getLogger("MenuController.class");
 
     @FXML
-    private BorderPane borderpane;
+    private BorderPane borderPane;
 
     @FXML
     void done(MouseEvent event) {
-        loadUI("done");
+        loadUi("done");
     }
 
     @FXML
-    void new_car(MouseEvent event) {
-        loadUI("newcar");
+    void newCar(MouseEvent event) {
+        loadUi("newCar");
     }
 
     @FXML
     void repair(MouseEvent event) {
-        loadUI("repair");
+        loadUi("repair");
     }
 
-    private void loadUI(String ui){
+    private void loadUi(String ui){
         Parent root = null;
         try {
-            root = FXMLLoader.load(getClass().getResource(ui+".fxml"));
+            root = FXMLLoader.load(getClass().getResource(ui + ".fxml"));
         } catch (IOException ex) {
             logger.error("A hiba forrása {}", ex.toString());
         }
-        borderpane.setCenter(root);
+        borderPane.setCenter(root);
     }
 }

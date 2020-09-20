@@ -105,7 +105,7 @@
             </TextArea>
             <VBox alignment="CENTER">
                <children>
-                  <Button alignment="CENTER" contentDisplay="CENTER" mnemonicParsing="false" onMouseClicked="#save" prefHeight="26.0" prefWidth="84.0" text="Mentés" textAlignment="CENTER" />
+                  <Button alignment="CENTER" contentDisplay="CENTER" mnemonicParsing="false" onMouseClicked="#saveNewCarToDatabase" prefHeight="26.0" prefWidth="84.0" text="Mentés" textAlignment="CENTER" />
                </children>
                <VBox.margin>
                   <Insets top="10.0" />

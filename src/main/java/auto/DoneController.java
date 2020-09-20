@@ -7,7 +7,7 @@ import javafx.scene.input.MouseEvent;
 public class DoneController {
 
     @FXML
-    void paid(MouseEvent event) {
+    void setPaidStatus(MouseEvent event) {
 
     }
 

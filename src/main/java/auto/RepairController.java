@@ -13,7 +13,7 @@ import java.io.IOException;
 public class RepairController {
 
     @FXML
-    void edit(MouseEvent event) throws IOException {
+    void openEditWindow(MouseEvent event) throws IOException {
         Parent part = FXMLLoader.load(App.class.getResource("edit.fxml"));
         Stage stage = new Stage();
         Scene scene = new Scene(part);
@@ -24,9 +24,9 @@ public class RepairController {
         stage.show();
     }
 
-    public void untilrepair(MouseEvent mouseEvent) {
+    public void underRepair(MouseEvent mouseEvent) {
     }
 
-    public void waitrepair(MouseEvent mouseEvent) {
+    public void waitingForRepair(MouseEvent mouseEvent) {
     }
 }
