@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ListView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="auto.DoneController">
+   <children>
+      <ListView layoutY="6.0" prefHeight="344.0" prefWidth="600.0" AnchorPane.bottomAnchor="51.0" AnchorPane.leftAnchor="5.0" AnchorPane.rightAnchor="5.0" AnchorPane.topAnchor="5.0" />
+      <Button alignment="CENTER" layoutX="519.0" layoutY="360.0" mnemonicParsing="false" onMouseClicked="#paid" text="Fizetve" textAlignment="CENTER" AnchorPane.bottomAnchor="14.399999999999999" AnchorPane.leftAnchor="479.8" AnchorPane.rightAnchor="29.0" AnchorPane.topAnchor="360.0">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>
