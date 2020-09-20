@@ -7,7 +7,7 @@
 
 <AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="500.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="auto.RepairController">
    <children>
-      <ListView layoutY="6.0" prefHeight="344.0" prefWidth="600.0" AnchorPane.bottomAnchor="51.0" AnchorPane.leftAnchor="5.0" AnchorPane.rightAnchor="5.0" AnchorPane.topAnchor="5.0" />
+      <ListView fx:id="listOfCarsUnderRepair" layoutY="6.0" prefHeight="344.0" prefWidth="600.0" AnchorPane.bottomAnchor="51.0" AnchorPane.leftAnchor="5.0" AnchorPane.rightAnchor="5.0" AnchorPane.topAnchor="5.0" />
       <Button layoutX="519.0" layoutY="360.0" mnemonicParsing="false" onMouseClicked="#openEditWindow" text="Szerkesztés" AnchorPane.bottomAnchor="12.6" AnchorPane.leftAnchor="379.8" AnchorPane.rightAnchor="29.0" AnchorPane.topAnchor="357.0">
          <font>
             <Font size="14.0" />

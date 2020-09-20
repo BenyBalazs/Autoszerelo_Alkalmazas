@@ -6,6 +6,7 @@ import javafx.scene.control.Spinner;
 import javafx.scene.control.TextArea;
 import javafx.scene.control.TextField;
 import javafx.scene.input.MouseEvent;
+import models.Car;
 
 public class EditController {
 
@@ -25,10 +26,10 @@ public class EditController {
     private TextArea description;
 
     @FXML
-    private Spinner<?> cost;
+    private Spinner<Integer> cost;
 
     @FXML
-    private ComboBox<?> state;
+    private ComboBox<Car.State> state;
 
     @FXML
     void save(MouseEvent event) {
