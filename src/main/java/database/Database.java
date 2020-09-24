@@ -7,6 +7,12 @@ import org.slf4j.Logger;
 import javax.persistence.EntityManager;
 import javax.persistence.EntityManagerFactory;
 import javax.persistence.Persistence;
+import javax.persistence.Query;
+import javax.persistence.criteria.CriteriaBuilder;
+import javax.persistence.criteria.CriteriaQuery;
+import javax.persistence.criteria.Root;
+import java.util.ArrayList;
+import java.util.List;
 
 public final class Database {
 
@@ -21,7 +27,7 @@ public final class Database {
         return emf.createEntityManager();
     }
 
-    public static void commitChanges(Car entity){
+    public static void commitCarChanges(Car entity){
         EntityManager em = getEntityManager();
         try{
             em.getTransaction().begin();
@@ -35,7 +41,7 @@ public final class Database {
         }
     }
 
-    public static void uploadEntityToDatabase(Car entity){
+    public static void uploadCarToDatabase(Car entity){
         EntityManager em = getEntityManager();
         try{
             em.getTransaction().begin();
@@ -50,7 +56,7 @@ public final class Database {
         }
     }
 
-    public static void removeEntity(Car entity){
+    public static void removeCarFromDatabase(Car entity){
         EntityManager em = getEntityManager();
         try{
             logger.debug("Removing Entity {}",entity.toString());
@@ -63,6 +69,27 @@ public final class Database {
         } finally {
             em.close();
         }
+    }
+
+    public static List<Car> getAllCarsByState(Car.State state){
+
+        EntityManager em = getEntityManager();
+        CriteriaBuilder cb = em.getCriteriaBuilder();
+
+        CriteriaQuery<Car> cq = cb.createQuery(Car.class);
+        Root<Car> from = cq.from(Car.class);
+
+        cq.select(from).where(cb.equal(from.get("state"), state));
+
+        try{
+            Query q = em.createQuery(cq);
+            return q.getResultList();
+        }catch(Exception e){
+            logger.error("A javításra váró kocsik lekérdezés sikertelen. Hiba oka {}",e.toString());
+        }finally {
+            em.close();
+        }
+        return new ArrayList<Car>();
     }
 
     public static void closeEmf(){
