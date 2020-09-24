@@ -66,6 +66,7 @@
     <orderEntry type="library" name="Maven: com.google.protobuf:protobuf-java:3.11.4" level="project" />
     <orderEntry type="library" name="Maven: org.slf4j:slf4j-api:1.7.30" level="project" />
     <orderEntry type="library" scope="RUNTIME" name="Maven: org.tinylog:tinylog-impl:2.1.0" level="project" />
+    <orderEntry type="library" name="Maven: javax.validation:validation-api:2.0.1.Final" level="project" />
     <orderEntry type="library" scope="RUNTIME" name="Maven: org.tinylog:tinylog-api:2.1.0" level="project" />
     <orderEntry type="library" scope="RUNTIME" name="Maven: org.tinylog:slf4j-tinylog:2.1.0" level="project" />
   </component>
