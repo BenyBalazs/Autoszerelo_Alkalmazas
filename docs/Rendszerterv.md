@@ -175,17 +175,6 @@ Architektúra elemek:
    
 ![er modell](https://raw.githubusercontent.com/BenyBalazs/Autoszerelo_Alkalmazas/master/docs/kepek/er%20diagram.png?token=AKMQSYNEBVWJNXZYDEHLQK27ODZHS)
 
-|Cars|
-|------|
-|Car_ID|
-|Name|
-|Phone_Number|
-|Licence_Plate_Number|
-|Description|
-|Brand_and_type|
-|State|
-|Cost_of_repair|
-
 ## 13. **Implementációs terv:**
 
 A tervezés folyamán egy grafikus megjelenítési formát célszerű használni jelen esetben ez az UML az úgynevezett Unified Modeling Language osztálydiagrammjai lesznek. Célszerű használni továbbá a Rendszerhasználati esetek alatt található use case diagrammokat is. 
