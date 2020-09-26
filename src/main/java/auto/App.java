@@ -11,20 +11,10 @@ import java.io.IOException;
 /**
  * JavaFX App
  */
-public class App extends Application {
-
-    @Override
-    public void start(Stage stage) throws IOException {
-        Parent root = FXMLLoader.load(getClass().getResource("menu.fxml"));
-        Scene scene = new Scene(root);
-        stage.setScene(scene);
-        stage.setTitle("Műhelyi adminisztráció");
-        stage.setResizable(false);
-        stage.show();
-    }
+public class App {
 
     public static void main(String[] args) {
-        launch();
+        Application.launch(Main.class, args);
     }
 
 }
