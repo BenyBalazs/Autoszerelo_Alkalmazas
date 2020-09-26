@@ -43,6 +43,12 @@ public class NewCarController {
         alert.setTitle("Sikeres mentés");
         alert.setHeaderText(null);
         alert.showAndWait();
+
+        name.clear();
+        phoneNumber.clear();
+        licencePlate.clear();
+        brandAndType.clear();
+        description.clear();
     }
 
 }
