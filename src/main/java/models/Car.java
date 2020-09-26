@@ -23,6 +23,7 @@ public class Car {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     @Column(name = "CarRepair_ID")
+    @Setter(AccessLevel.PRIVATE)
     private long repairId;
     @Column(name = "Name")
     private String name;

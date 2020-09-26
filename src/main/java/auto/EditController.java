@@ -1,6 +1,7 @@
 package auto;
 
 import database.DataTransfer;
+import database.Database;
 import javafx.fxml.FXML;
 import javafx.scene.control.ComboBox;
 import javafx.scene.control.Spinner;
@@ -48,8 +49,20 @@ public class EditController {
 
     @FXML
     void save(MouseEvent event) {
+        try {
+            car.setPhoneNumber(phoneNumber.getText());
+            car.setBrandAndType(brandAndType.getText());
+            car.setLicensePlate(licencePlane.getText());
+            car.setDescription(description.getText());
+            car.setName(name.getText());
+            car.setState(state.getSelectionModel().getSelectedItem());
+            car.setCostOfRepair(cost.getValue());
 
+            Database.commitCarChanges(car);
 
+        } catch(Exception exception) {
+
+        }
     }
 
 }
