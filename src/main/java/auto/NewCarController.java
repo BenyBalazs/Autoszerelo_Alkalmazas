@@ -1,9 +1,13 @@
 package auto;
 
+import database.Database;
 import javafx.fxml.FXML;
 import javafx.scene.control.TextArea;
 import javafx.scene.control.TextField;
 import javafx.scene.input.MouseEvent;
+import models.Car;
+
+import javax.swing.event.CaretEvent;
 
 public class NewCarController {
 
@@ -24,7 +28,15 @@ public class NewCarController {
 
     @FXML
     void saveNewCarToDatabase(MouseEvent event) {
+        Car car = Car.builder().brandAndType(brandAndType.getText())
+                .name(name.getText())
+                .phoneNumber(phoneNumber.getText())
+                .licensePlate(licencePlate.getText())
+                .description(description.getText())
+                .state(Car.State.WAITING)
+                .build();
 
+        Database.uploadCarToDatabase(car);
     }
 
 }

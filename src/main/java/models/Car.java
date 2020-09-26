@@ -6,6 +6,7 @@ import javax.persistence.*;
 import javax.xml.bind.ValidationException;
 
 @Data
+@Builder
 @AllArgsConstructor
 @NoArgsConstructor
 @Entity
