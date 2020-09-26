@@ -30,8 +30,10 @@ public class RepairController {
     }
 
     public void underRepair(MouseEvent mouseEvent) {
+
     }
 
     public void waitingForRepair(MouseEvent mouseEvent) {
+
     }
 }

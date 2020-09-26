@@ -1,5 +1,6 @@
 package auto;
 
+import database.DataTransfer;
 import javafx.fxml.FXML;
 import javafx.scene.control.ComboBox;
 import javafx.scene.control.Spinner;
@@ -31,8 +32,23 @@ public class EditController {
     @FXML
     private ComboBox<Car.State> state;
 
+    private Car car;
+
+    @FXML
+    public void initialize(){
+        car = DataTransfer.getCar();
+        name.setText(car.getName());
+        phoneNumber.setText(car.getPhoneNumber());
+        brandAndType.setText(car.getBrandAndType());
+        licencePlane.setText(car.getLicensePlate());
+        description.setText(car.getDescription());
+        state.getItems().addAll(Car.State.values());
+        state.getSelectionModel().select(car.getState());
+    }
+
     @FXML
     void save(MouseEvent event) {
+
 
     }
 
