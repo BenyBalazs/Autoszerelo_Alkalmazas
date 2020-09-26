@@ -61,6 +61,11 @@ public class DoneController {
         Car car = listOfCarsDone.getSelectionModel().getSelectedItem();
         listOfCarsDone.getItems().remove(car);
         Database.removeCarFromDatabase(car);
+        Alert alert = new Alert(Alert.AlertType.INFORMATION);
+        alert.setContentText("A kijelölt autó törlésre került az adatbázisból.");
+        alert.setTitle("Törlés végrehajtva");
+        alert.setHeaderText(null);
+        alert.showAndWait();
     }
 
     @FXML
