@@ -45,6 +45,8 @@ public class EditController {
         description.setText(car.getDescription());
         state.getItems().addAll(Car.State.values());
         state.getSelectionModel().select(car.getState());
+        if (car.getCostOfRepair()!=0)
+            cost.getValueFactory().setValue(car.getCostOfRepair());
     }
 
     @FXML

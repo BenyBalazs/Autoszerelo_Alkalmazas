@@ -14,10 +14,20 @@ import javax.xml.bind.ValidationException;
 public class Car {
 
     public static enum State {
-        WAITING,
-        UNDER_REPAIR,
-        FINISHED,
-        PAID
+        WAITING("Szerelésre vár"),
+        UNDER_REPAIR("Szerelés alatt"),
+        FINISHED("Elkészült"),
+        PAID("Fizetve");
+
+        private final String value;
+
+        State(final String value) {
+            this.value = value;
+        }
+        @Override
+        public String toString(){
+            return value;
+        }
     }
 
     @Id
@@ -56,5 +66,16 @@ public class Car {
             this.phoneNumber = phoneNumber;
         else
             throw new ValidationException("Nem megfelelő a telefonszám hossza");
+    }
+
+    @Override
+    public String toString() {
+        return
+                "Név: " + name +
+                "  Telefonszám: " + phoneNumber +
+                "  Rendszám: " + licensePlate +
+                "  Márka,Típus: " + brandAndType +
+                "  Állapot: " + state.toString() +
+                "  Költség: " + costOfRepair ;
     }
 }
