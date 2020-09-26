@@ -31,7 +31,7 @@ public final class Database {
         EntityManager em = getEntityManager();
         try{
             em.getTransaction().begin();
-            em.persist(entity);
+            em.merge(entity);
             em.getTransaction().commit();
             em.close();
         }catch (Exception e){
