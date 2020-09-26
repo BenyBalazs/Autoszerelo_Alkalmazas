@@ -11,10 +11,13 @@ import javafx.scene.control.Alert;
 import javafx.scene.control.ListView;
 import javafx.scene.control.SelectionMode;
 import javafx.scene.input.MouseEvent;
+import javafx.stage.Modality;
 import javafx.stage.Stage;
+import javafx.stage.Window;
 import models.Car;
 
 import java.io.IOException;
+import java.util.List;
 
 public class RepairController {
 
@@ -39,8 +42,10 @@ public class RepairController {
             stage.setTitle("Szerkesztés");
             stage.setResizable(false);
             stage.sizeToScene();
+            stage.initModality(Modality.WINDOW_MODAL);
+            stage.initOwner(Stage.getWindows().stream().filter(Window::isShowing).findFirst().get());
             stage.show();
-            stage.setOnCloseRequest(windowEvent -> DataTransfer.setCar(null));
+            stage.setOnCloseRequest(windowEvent -> {listOfCarsUnderRepair.refresh(); DataTransfer.setCar(null);});
         }
         else{
             Alert alert = new Alert(Alert.AlertType.ERROR);
