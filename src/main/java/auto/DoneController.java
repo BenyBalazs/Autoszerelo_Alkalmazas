@@ -29,18 +29,6 @@ public class DoneController {
     }
 
     @FXML
-    void listFinishedCars(MouseEvent event) {
-        listOfCarsDone.getItems().clear();
-        listOfCarsDone.getItems().addAll(Database.getAllCarsByState(Car.State.FINISHED));
-    }
-
-    @FXML
-    void listPaidCars(MouseEvent event) {
-        listOfCarsDone.getItems().clear();
-        listOfCarsDone.getItems().addAll(Database.getAllCarsByState(Car.State.PAID));
-    }
-
-    @FXML
     void openEditWindow(MouseEvent event) throws IOException {
 
         Car car = listOfCarsDone.getSelectionModel().getSelectedItem();
@@ -73,6 +61,18 @@ public class DoneController {
         Car car = listOfCarsDone.getSelectionModel().getSelectedItem();
         listOfCarsDone.getItems().remove(car);
         Database.removeCarFromDatabase(car);
+    }
+
+    @FXML
+    void listFinishedCars(MouseEvent event) {
+        listOfCarsDone.getItems().clear();
+        listOfCarsDone.getItems().addAll(Database.getAllCarsByState(Car.State.FINISHED));
+    }
+
+    @FXML
+    void listPaidCars(MouseEvent event) {
+        listOfCarsDone.getItems().clear();
+        listOfCarsDone.getItems().addAll(Database.getAllCarsByState(Car.State.PAID));
     }
 
 }
