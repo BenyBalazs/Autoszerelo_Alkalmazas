@@ -13,7 +13,6 @@ A javításra váró autók felvételét, jelenleg irodavezetőnk végzi, akinek
 
 ## 4. **Igénylet üzleti folyamatok:**
 
-- **Asztali alkalmazás**
 - **A program vegye fel egy adatbázisba a szerelendő autókat:** Képesek legyünk felvenni a tulajdonos adatait, az autó adatait (pl.:szín,márka,rendszám,alvázszám). Az autókhoz tudjunk megadni egy rövid hibaleírást és esetleg képeket.
 - A szerelők képesek legyenek elvállalni a bent lévő javításra váró autókat.
 - **Az autóknak 4 státusza legyen :** szerelőre vár (felvétel időpontja), szerelés alatt, elkészült és fizetve. Státuszok válltozásának ideje kerüljön feljegyzésre!
