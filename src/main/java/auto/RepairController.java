@@ -7,6 +7,7 @@ import javafx.fxml.FXML;
 import javafx.fxml.FXMLLoader;
 import javafx.scene.Parent;
 import javafx.scene.Scene;
+import javafx.scene.control.Alert;
 import javafx.scene.control.ListView;
 import javafx.scene.control.SelectionMode;
 import javafx.scene.input.MouseEvent;
@@ -40,6 +41,13 @@ public class RepairController {
             stage.sizeToScene();
             stage.show();
             stage.setOnCloseRequest(windowEvent -> DataTransfer.setCar(null));
+        }
+        else{
+            Alert alert = new Alert(Alert.AlertType.ERROR);
+            alert.setContentText("A szerkesztéshez ki kell jelölni egy autót!");
+            alert.setTitle("Nincs kijelölt autó");
+            alert.setHeaderText(null);
+            alert.showAndWait();
         }
     }
     public void underRepair(MouseEvent mouseEvent) {

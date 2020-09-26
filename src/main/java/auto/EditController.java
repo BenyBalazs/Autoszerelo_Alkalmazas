@@ -3,10 +3,7 @@ package auto;
 import database.DataTransfer;
 import database.Database;
 import javafx.fxml.FXML;
-import javafx.scene.control.ComboBox;
-import javafx.scene.control.Spinner;
-import javafx.scene.control.TextArea;
-import javafx.scene.control.TextField;
+import javafx.scene.control.*;
 import javafx.scene.input.MouseEvent;
 import models.Car;
 
@@ -62,8 +59,18 @@ public class EditController {
 
             Database.commitCarChanges(car);
 
-        } catch(Exception exception) {
+            Alert alert = new Alert(Alert.AlertType.INFORMATION);
+            alert.setContentText("A változtatások el lettek mentve az adatbázisba.");
+            alert.setTitle("Sikeres mentés.");
+            alert.setHeaderText(null);
+            alert.showAndWait();
 
+        } catch(Exception exception) {
+            Alert alert = new Alert(Alert.AlertType.ERROR);
+            alert.setContentText("Nem sikerült a mentés!");
+            alert.setTitle("Sikertelen mentés!");
+            alert.setHeaderText(null);
+            alert.showAndWait();
         }
     }
 
