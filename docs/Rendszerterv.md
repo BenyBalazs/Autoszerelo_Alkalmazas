@@ -194,7 +194,7 @@ Az üzleti logika a háromrétegű adatkezelő alkalmazások középső rétege,
 | T1 | A program leindítása |
 | T2 | Adatbázisból egy létező elemre való rákeresés |
 | T3 | Adatbázisból egy nem létező elemre való keresés |
-| T4 | Autó hozzáadása az adatbázisho |
+| T4 | Autó hozzáadása az adatbázishoz |
 | T5 | Egy autó állapotának a módosítás |
 | T6 | Egy autó eltávolítása az adatbázisból |
 
